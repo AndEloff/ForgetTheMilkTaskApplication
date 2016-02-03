@@ -10,7 +10,17 @@ namespace ForgetTheMilk.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(Tasks);
+        }
+
+        //setting up a field called tasks that stores a list of strings via the textbox
+        public static readonly List<string> Tasks = new List<string>();
+
+        [HttpPost]
+        public ActionResult Add(string task)
+        {
+            Tasks.Add(task);
+            return RedirectToAction("Index");
         }
     }
 }
