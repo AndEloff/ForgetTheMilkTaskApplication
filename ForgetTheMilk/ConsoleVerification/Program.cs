@@ -10,30 +10,13 @@ namespace ConsoleVerification
     {
         static void Main(string[] args)
         {
-            TestDescriptionAndNoDueDate();
             TestMayDueDateDoesWrapYear();
             TestMayDueDateDoesNotWrapYear();
 
             Console.ReadLine();
         }
 
-        private static void TestDescriptionAndNoDueDate()
-        {
-            var input = "Pick up groceries";
-            Console.WriteLine("Scenario: " + input);
-
-            var task = new Task(input, default(DateTime));
-
-            var descriptionShouldBe = input;
-            DateTime? dueDateShouldBe = null;
-            var success = descriptionShouldBe == task.Description && dueDateShouldBe == task.DueDate;
-            var failureMessage = "Description: " + task.Description + "should be" + descriptionShouldBe
-                + Environment.NewLine
-                + "Due Date: " + task.DueDate + "should be" + dueDateShouldBe;
-            PrintOutcome(success, failureMessage);
-        }
-
-        private static void PrintOutcome(bool success, string failureMessage)
+        public static void PrintOutcome(bool success, string failureMessage)
         {
             if (success)
             {
