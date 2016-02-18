@@ -20,7 +20,7 @@ namespace ForgetTheMilk.Controllers
         [HttpPost]
         public ActionResult Add(string task)
         {
-            var taskItem = new Task(task);
+            var taskItem = new Task(task, DateTime.Today);
             //new instance of the task class created below, with the descrpt set to whatever the user entered task is
             Tasks.Add(taskItem);
             return RedirectToAction("Index");
@@ -29,7 +29,7 @@ namespace ForgetTheMilk.Controllers
 
     public class Task
     {
-        public Task(string task)
+        public Task(string task, DateTime today)
         {
             Description = task;
             //parsing out due date if user submits one via Regular Expression rule that I set up
@@ -40,7 +40,11 @@ namespace ForgetTheMilk.Controllers
             {
                 var dueDate = dueDatePattern.Match(task);
                 var day = Convert.ToInt32(dueDate.Groups[1].Value);
-                DueDate = new DateTime(DateTime.Today.Year, 5, day); //hardcoded the month to May will update it to parse out the curent month
+                DueDate = new DateTime(today.Year, 5, day);
+                if (DueDate < today)
+                {
+                    DueDate = DueDate.Value.AddYears(1);
+                }
             }
         }
         public string Description { get; set; }

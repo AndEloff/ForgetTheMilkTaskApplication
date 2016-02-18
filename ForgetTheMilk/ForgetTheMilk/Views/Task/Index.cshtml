@@ -6,12 +6,12 @@
 
 <div class="jumbotron">
     <p>Add a task:</p>
-    <form action="@Url.Action("Add")" method="post">
+    <form action="@Url.Action("Add")" method="POST">
         <input type="text" class="input-lg col-xs-12" name="task" autofocus/>
     </form>
 </div>
 
-<h2>@Model.Count() Task(s)</h2
+<h3>@Model.Count() Task(s)</h3>
 <table class="table">
     <tr>
         <th>Description</th>
