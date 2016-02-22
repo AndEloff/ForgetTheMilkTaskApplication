@@ -48,5 +48,6 @@ C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetT
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\bin\System.Web.WebPages.Razor.xml
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\bin\Antlr3.Runtime.pdb
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\bin\Newtonsoft.Json.xml
+C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\obj\Debug\ForgetTheMilk.csprojResolveAssemblyReference.cache
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\obj\Debug\ForgetTheMilk.dll
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ForgetTheMilk\obj\Debug\ForgetTheMilk.pdb
