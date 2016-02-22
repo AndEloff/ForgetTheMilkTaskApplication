@@ -59,10 +59,20 @@ namespace ConsoleVerification
         {
             var today = new DateTime(2015, 5, 31);
 
-            var task = new Task(input, today);
+            var task = new Task(input, default(DateTime));
 
             Expect(task.DueDate, Is.Not.Null);
             Expect(task.DueDate.Value.Month, Is.EqualTo(expectedMonth));
+        }
+
+        [Test]
+        public void TwoDigitDay_ParseBothDigits()
+        {
+            var input = "Groceries apr 10";
+
+            var task = new Task(input, default(DateTime));
+
+            Expect(task.DueDate.Value.Day, Is.EqualTo(10));
         }
     }
 }

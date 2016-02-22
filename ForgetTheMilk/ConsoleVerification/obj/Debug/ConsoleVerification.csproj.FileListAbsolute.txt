@@ -11,6 +11,8 @@ C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\Console
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\roslyn\vbc.exe
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ConsoleVerification.dll.config
+C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ConsoleVerification.dll
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ConsoleVerification.pdb
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ForgetTheMilk.dll
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\nunit.framework.dll
@@ -35,7 +37,5 @@ C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\Console
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\Antlr3.Runtime.pdb
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\obj\Debug\ConsoleVerification.csprojResolveAssemblyReference.cache
-C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\obj\Debug\ConsoleVerification.pdb
-C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ConsoleVerification.dll.config
-C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\bin\Debug\ConsoleVerification.dll
 C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\obj\Debug\ConsoleVerification.dll
+C:\Users\NewbSmasher\Documents\Visual Studio 2015\Projects\ForgetTheMilk\ConsoleVerification\obj\Debug\ConsoleVerification.pdb
